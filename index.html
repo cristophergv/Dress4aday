@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Dress4aday</title>
+        <meta name="description" content="">
+        <meta name="author" content="Cristopher González Vega">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="format-detection" content="telephone=no">
+        <meta http-equiv="cleartype" content="on">
+    <!-- <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <title>Hello World</title>-->
+    <!-- Main Stylesheet -->
+        <link rel="stylesheet" href="js/lungo/lungo.css">
+        <link rel="stylesheet" href="js/lungo/lungo.icon.css">
+        <link rel="stylesheet" href="js/lungo/lungo.theme.css">
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body> 
+    	<!--###############   INICIO   ################-->
+        <section id="inicio" data-transition="fade">
+            <article id="inicio-art-1" class="indented scroll gris">
+            	<div id="buscador" class="bloque-portada">
+                    <center><img src="img/logodress.png"><br/><br/>
+                    <fieldset class="form">
+                       
+                        <label class="select"> 
+                            <select id="filtro-disponibilidad">
+                            </select>
+                        </label>
+                        <br/>
+                       
+                        <label class="select"> 
+                            <select id="filtro-tipo">
+                            </select>
+                        </label>
+                        <br/>
+                       
+                        <label class="select"> 
+                            <select id="filtro-color">
+                            </select>
+                        </label>
+                        <br/>
+                      
+                        <label class="select"> 
+                            <select id="filtro-talla">
+                            </select>
+                        </label>
+                        <br/>
+                        <span class="button" id="buscar-por" data-icon="search" data-label="Buscar">
+                    </fieldset>
+                    </center>
+                </div>
+            </article>             
+            
+            <footer>
+                <nav class="with-labels">
+                    <a href="#" data-view-section="inicio"   data-icon="home" data-label="Inicio" data-title="Ucoach" class="active"></a>
+                    <a href="#" data-view-section="catalogo" data-title="Catalogo" data-icon="picture" data-label="Catalogo"></a>
+                    <a href="#" data-view-section="encantan" data-title="Me encantan" data-icon="heart" data-label="Me encantan"></a>
+                    <a href="#" data-view-section="contacto" data-title="Contacto" data-icon="phone" data-label="Contacto"></a>
+                </nav>
+            </footer>
+        </section>     
+        
+        <!--###############   CATALOGO   ################-->
+        <section id="catalogo" data-transition="fade">
+            <header>
+                <nav class="on-right">
+                	<a href="#" class="button" id="como-f" data-view-section="como" data-icon="question-sign small"></a>
+                </nav>
+                <div class="centered title">Dress4aday</div>
+                <nav class="on-left">
+                	<a href="#" class="button" id="volver" data-view-section="inicio" data-icon="arrow-left"></a>
+                </nav>
+            </header>
+                    
+            <article id="catalogo-art-1" class="active indented horizontal scroll list gris" >
+                
+            </article>
+            <article id="catalogo-art-2" class="scroll" >
+
+            </article>
+            <footer>
+                <nav class="with-labels">
+                    <a href="#" data-view-section="inicio"   data-icon="home" data-label="Inicio" data-title="Ucoach"></a>
+                    <a href="#" data-view-section="catalogo" data-title="Catalogo" data-icon="picture" data-label="Catalogo" class="active"></a>
+                    <a href="#" data-view-section="encantan" data-title="Me encantan" data-icon="heart" data-label="Me encantan"></a>
+                    <a href="#" data-view-section="contacto" data-title="Contacto" data-icon="phone" data-label="Contacto"></a>
+                </nav>
+            </footer>
+        </section>
+        
+        <!--###############   ME ENCANTAN   ################-->
+        <section id="encantan" data-transition="fade">
+        	<header>
+                <div class="centered title">Me encantan</div>
+                <nav class="on-right">
+                	<a href="#" class="button" id="eliminar-todos" data-icon="minus" ></a>
+                </nav>
+            </header> 
+            <article id="encantan-art-1" class="active  scroll gris" >
+				
+            </article>
+            
+            <footer>
+                <nav class="with-labels">
+                    <a href="#" data-view-section="inicio"   data-icon="home" data-label="Inicio" data-title="Ucoach"></a>
+                    <a href="#" data-view-section="catalogo" data-title="Catalogo" data-icon="picture" data-label="Catalogo"></a>
+                    <a href="#" data-view-section="encantan" data-title="Me encantan" data-icon="heart" data-label="Me encantan" class="active"></a>
+                    <a href="#" data-view-section="contacto" data-title="Contacto" data-icon="phone" data-label="Contacto"></a>
+                </nav>
+            </footer>
+        </section>
+        
+        <!--###############   COMO FUNCIONA   ################-->
+        <section id="como" data-transition="fade">
+        	<header>
+                <div class="centered title">Como funciona</div>
+                <nav class="on-left">
+                	<a href="#" class="button" id="volver" data-view-section="catalogo" data-icon="arrow-left"></a>
+                </nav>
+            </header> 
+            <article id="como-art-1" class="active  scroll gris" >
+				
+            </article>
+            
+            <footer>
+                <nav class="with-labels">
+                    <a href="#" data-view-section="inicio"   data-icon="home" data-label="Inicio" data-title="Como funciona"></a>
+                    <a href="#" data-view-section="catalogo" data-title="Catalogo" data-icon="picture" data-label="Catalogo"></a>
+                    <a href="#" data-view-section="encantan" data-title="Me encantan" data-icon="heart" data-label="Me encantan"></a>
+                    <a href="#" data-view-section="contacto" data-title="Contacto" data-icon="phone" data-label="Contacto"></a>
+                </nav>
+            </footer>
+        </section>
+        
+        
+        <!--###############   CONTACTO   ################-->
+        <section id="contacto" data-transition="fade">
+            <header>
+                <div class="centered title">Contacto</div>
+            </header>  
+            <article id="contacto-art-1" class="active indented scroll gris" >
+            	<div class="bloque-portada espacio-bajo">
+                	MAPA:<br/>
+                    <hr>
+                     <iframe width="100%" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.mx/maps/ms?msa=0&amp;msid=206157201391640719803.0004e059875c99055e68f&amp;ie=UTF8&amp;ll=20.657461,-103.399419&amp;spn=0,0&amp;t=m&amp;output=embed"></iframe> 
+                </div>
+                <div  class="bloque-portada espacio-bajo">
+                	ENCUENTRANOS EN:<br/>
+                    <hr>
+                        <span class="direccion"> 
+                            Av. Cubilete #16-B, Col. Chapalita <br/>Zapopan, Jalisco, México <br/>C.P 45050 <br/>Tel: (33) 31.21.08.12<br/>
+                            <span class="web">www.dress4aday.mx</span>
+                            
+                        </span>
+                  
+               </div>
+                <div  class="bloque-portada espacio-bajo">
+                ENVIANOS UN CORREO:<br/>
+                    <hr>
+                    <form action="" method="post" id="mycontactform" >
+                        <input type="text" name="nombre" id="nombre" placeholder="Nombre" class="inputs" /><br />
+                        <input type="text" name="email" id="email" placeholder="Email"  class="inputs"/><br />
+                        <input type="text" name="telefono" id="telefono" placeholder="Telefono" class="inputs" /><br />
+                        <textarea name="mensaje" id="mensaje" placeholder="Mensaje" class="textareas"></textarea><br />
+                        <input type="button" value="Enviar" id="contactar" />
+                        <div id="success" style="color:red;"></div>
+                     </form>   
+                </div>
+            </article>
+         
+            <footer>
+                <nav class="with-labels">
+                    <a href="#" data-view-section="inicio"   data-icon="home" data-label="Inicio" data-title="Ucoach"></a>
+                    <a href="#" data-view-section="catalogo" data-title="Catalogo" data-icon="picture" data-label="Catalogo"></a>
+                    <a href="#" data-view-section="encantan" data-title="Me encantan" data-icon="heart" data-label="Me encantan"></a>
+                    <a href="#" data-view-section="contacto" data-title="Contacto" data-icon="phone" data-label="Contacto" class="active"></a>
+                </nav>
+            </footer>
+        </section>
+        
+        
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/ready.js"></script> 
+        <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script> 
+        <script type="text/javascript" src="js/mustache.js"></script>
+		<script type="text/javascript" src="js/constantes.js"></script>
+        <!-- Lungo dependencies -->
+        <script src="js/quojs/quo.js"></script>
+        <script src="js/lungo/lungo.js"></script>
+         <script src="app/funciones.js"></script>
+		<script src="app/eventos.js"></script>
+        <script src="app/datos.js"></script>
+        <script src="app/init.js"></script>
+    </body>
+</html>
