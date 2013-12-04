@@ -2,10 +2,10 @@
 <widget id="mx.dress4aday.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Dress4aday</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Descarga nuestra App y accede a nuestro catalogo en todo momento. Podras realizar busquedas por: Disponibilidad, Tipo, Color, Talla. Agregar aquellos que mas te gustan a tu lista de "Me Encantan" y que la proxima vez que asistas a nuestra tienda sea mucho mas sencillo solicitar información de los que mas te gustaron ó si lo prefieres enviarnos por correo tu lista para darte mas detalles de cada uno de ellos. Recuerda: Con Dress4aday, deslumbraras en tu evento.
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="hola@dress4aday" href="http://dress4aday.mx">
+        Dress4aday
     </author>
     <feature name="http://api.phonegap.com/1.0/device" />
     <preference name="permissions" value="none" />
